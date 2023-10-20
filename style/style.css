@@ -10,6 +10,8 @@ main{
     size: 3/4 * 1200px;
     min-width: auto;
     min-height: 400px;
+    margin: 5px;
+    margin-bottom: 10px;
 }
 
 aside{
@@ -27,7 +29,7 @@ footer{
     min-height: 80px;
 }
 
-img{
+#image-logo{
     height: 60px;
     width: 60px;
     border-radius: 50%;
@@ -36,6 +38,9 @@ img{
 h1{
     text-align: center;
     size: 2.5em;
+}
+h2{
+    padding-top: 5px;
 }
 
 #info{
@@ -56,4 +61,23 @@ li{
     text-align: center;
     align-items: center;
     justify-content: center;
+}
+
+.container-notice-primary{
+    display: flex;
+}
+
+.container-notice-primary h2{
+    text-align: left;
+}
+#image-notice{
+    max-width: 200px;
+    max-height: 200px;
+}
+
+.container-other-notice{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
 }

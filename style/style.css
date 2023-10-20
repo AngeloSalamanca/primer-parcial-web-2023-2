@@ -1,0 +1,25 @@
+header{
+    size: 1200px;
+    min-height: 120px;
+}
+
+main{
+    size: 3/4 * 1200px;
+    min-width: auto;
+    min-height: 400px;
+}
+
+aside{
+    size: 1/4 * 1200px;
+    min-width: 200px;
+    min-height: 400px;
+}
+
+footer{
+    size: 1/2 * 1200px;
+    max-height: 80px;
+    min-height: 80px;
+}
+footer{
+    size: 1/2 * 1200px;
+}

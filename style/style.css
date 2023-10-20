@@ -23,12 +23,6 @@ aside{
 }
 
 footer{
-    size: 1/2 * 1200px;
-    max-height: 80px;
-    min-height: 80px;
-}
-footer{
-    size: 1/2 * 1200px;
     max-height: 80px;
     min-height: 80px;
 }
@@ -50,4 +44,16 @@ h1{
 
 li{
     list-style: none;
+}
+
+#footer-1{
+    width: auto;
+    justify-content: center;
+}
+
+#footer-2{
+    width: auto;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
 }

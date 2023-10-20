@@ -1,9 +1,19 @@
+body{
+    background-color: #6490f5;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: #000000;
+    margin: 0;
+    padding: 0;
+}
+
 header{
     size: 1200px;
     min-height: 120px;
     display: flex;
     align-items: center;
     justify-content: center;
+    background-color: #4563ab;
 }
 
 main{
@@ -12,12 +22,18 @@ main{
     min-height: 400px;
     margin: 5px;
     margin-bottom: 10px;
+    background-color: #567bd1;
 }
 
 aside{
     size: 1/4 * 1200px;
     min-width: 200px;
     min-height: 400px;
+    background-color: #344b80;
+}
+
+.container{
+    display: flex;
 }
 
 .container-footer{
@@ -80,4 +96,12 @@ li{
     justify-content: center;
     align-items: center;
     margin: 5px;
+}
+
+.container-aside{
+    text-align: center;
+}
+
+.list-group-item-action :hover{
+    background-color: #538cd6;
 }

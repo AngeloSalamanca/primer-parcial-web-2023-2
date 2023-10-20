@@ -18,6 +18,10 @@ aside{
     min-height: 400px;
 }
 
+.container-footer{
+    display: flex;
+}
+
 footer{
     size: 1/2 * 1200px;
     max-height: 80px;
@@ -38,4 +42,12 @@ img{
 h1{
     text-align: center;
     size: 2.5em;
+}
+
+#info{
+    size: 1.5em bold;
+}
+
+li{
+    list-style: none;
 }
